@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#07111f">
+  <meta name="description" content="THE SPORTS HUB — every sport, every story, one destination. Australian sports news, previews, fantasy insights and weekend guides.">
+  <title>THE SPORTS HUB | Every Sport. Every Story.</title>
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="topline">
+    <div class="container top-line-inner">
+      <span>AUSTRALIA'S MULTI-SPORT DESTINATION</span>
+      <span class="top-date" id="today-label">THE SPORTS HUB</span>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home" aria-label="The Sports Hub home">
+        <span class="brand-mark">SH</span>
+        <span class="brand-name">THE SPORTS<span>HUB</span></span>
+      </a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+      <nav class="main-nav" id="main-nav">
+        <a href="#sports">SPORTS</a>
+        <a href="#latest">LATEST</a>
+        <a href="#weekend">WEEKEND GUIDE</a>
+        <a href="#fantasy">FANTASY</a>
+        <a href="#membership">MEMBERSHIP</a>
+      </nav>
+      <a class="header-cta" href="#membership">JOIN THE HUB <span>→</span></a>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-grid"></div>
+      <div class="container hero-content">
+        <div class="eyebrow"><span class="live-dot"></span> BUILT FOR THE FANS</div>
+        <h1>EVERY SPORT.<br><span>EVERY STORY.</span><br>ONE DESTINATION.</h1>
+        <p>Your home for the sports you love. Get sharp analysis, match previews, fantasy insights and a better way to plan your sporting weekend.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#sports">EXPLORE THE SPORTS <span>→</span></a>
+          <a class="button button-ghost" href="#membership">BECOME A MEMBER</a>
+        </div>
+        <div class="hero-proof">
+          <div><strong>10</strong><span>SPORTS</span></div>
+          <div><strong>1</strong><span>DESTINATION</span></div>
+          <div><strong>100%</strong><span>FAN FOCUSED</span></div>
+        </div>
+      </div>
+      <div class="hero-side-label">THE FAN'S EDGE / EST. 2026</div>
+    </section>
+
+    <section class="ticker" aria-label="Sports covered">
+      <div class="container ticker-inner">
+        <span>NRL</span><i>◆</i><span>AFL</span><i>◆</i><span>NFL</span><i>◆</i><span>SOCCER</span><i>◆</i><span>BASKETBALL</span><i>◆</i><span>MOTORSPORT</span><i>◆</i><span>RUGBY UNION</span><i>◆</i><span>GOLF</span><i>◆</i><span>NETBALL</span>
+      </div>
+    </section>
+
+    <section class="section container" id="sports">
+      <div class="section-heading">
+        <div><div class="eyebrow">PICK YOUR GAME</div><h2>ALL SPORTS. <span>ALL IN.</span></h2></div>
+        <p>Ten sports. One place to stay across it all.</p>
+      </div>
+      <div class="sports-grid" id="sports-grid"></div>
+    </section>
+
+    <section class="feature-band" id="latest">
+      <div class="container feature-layout">
+        <div class="feature-copy">
+          <div class="eyebrow">THE HUB EDIT</div>
+          <h2>MORE THAN<br><span>JUST THE SCORE.</span></h2>
+          <p>We’re here for the big moments, the talking points and the details that make being a fan better. Expect original perspectives, useful guides and content that gets straight to the point.</p>
+          <a class="text-link" href="#latest-stories">EXPLORE THE LATEST <span>→</span></a>
+        </div>
+        <div class="feature-stat">
+          <div class="stat-number">01<span>/10</span></div>
+          <div class="stat-caption">ONE HUB FOR<br>EVERY FAN</div>
+          <div class="stat-lines"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="latest-stories">
+      <div class="section-heading">
+        <div><div class="eyebrow">FRESH FROM THE HUB</div><h2>THE LATEST <span>TAKES.</span></h2></div>
+        <span class="section-note">EDITORIAL PREVIEW</span>
+      </div>
+      <div class="story-grid" id="story-grid"></div>
+      <p class="demo-note">Launch preview: these are example editorial concepts, not current news or live match information.</p>
+    </section>
+
+    <section class="weekend-section" id="weekend">
+      <div class="container weekend-layout">
+        <div>
+          <div class="eyebrow">YOUR WEEK. YOUR SPORTS.</div>
+          <h2>MAKE YOUR<br><span>WEEKEND COUNT.</span></h2>
+          <p>Our planned weekly guide brings your favourite sports together: what’s on, what’s worth watching, key match-ups and talking points — all in Australian time.</p>
+          <a class="button button-primary" href="#membership">GET THE WEEKEND EDGE <span>→</span></a>
+        </div>
+        <div class="weekend-card">
+          <div class="weekend-card-top"><span>THE SPORTS HUB</span><span>WEEKEND GUIDE</span></div>
+          <div class="weekend-card-title">YOUR SPORTS.<br>YOUR LINE-UP.</div>
+          <div class="guide-row"><b>01</b><span>Fixtures worth watching</span><em>UP NEXT</em></div>
+          <div class="guide-row"><b>02</b><span>Match previews & key battles</span><em>INSIGHT</em></div>
+          <div class="guide-row"><b>03</b><span>Fantasy angles & player watch</span><em>EDGE</em></div>
+          <div class="guide-row"><b>04</b><span>Tips, picks & talking points</span><em>THE CHAT</em></div>
+          <div class="guide-card-footer">A BETTER WAY TO FOLLOW YOUR SPORTS.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="fantasy">
+      <div class="section-heading">
+        <div><div class="eyebrow">THINK A STEP AHEAD</div><h2>THE FANTASY <span>CENTRE.</span></h2></div>
+        <p>Strategy, player watchlists and practical tips for fantasy fans.</p>
+      </div>
+      <div class="fantasy-panel">
+        <div class="fantasy-icon">✦</div>
+        <div><h3>PLAY SMARTER. ENJOY MORE.</h3><p>Our fantasy section will bring together original rankings, form analysis, trade considerations and weekly strategy across selected competitions.</p></div>
+        <a class="text-link" href="#membership">GET MEMBER ACCESS <span>→</span></a>
+      </div>
+    </section>
+
+    <section class="membership-section" id="membership">
+      <div class="container membership-layout">
+        <div>
+          <div class="eyebrow">YOUR FRONT-ROW SEAT</div>
+          <h2>GET MORE<br>FROM <span>THE GAME.</span></h2>
+          <p>Join the community as we build a smarter, more connected home for Australian sports fans.</p>
+        </div>
+        <div class="membership-card">
+          <div class="member-label">THE SPORTS HUB / PREMIUM</div>
+          <div class="member-price">$9.99 <small>/ month</small></div>
+          <p class="member-intro">Proposed launch membership</p>
+          <ul>
+            <li>✓ Premium analysis and match previews</li>
+            <li>✓ The weekly My Sports Weekend guide</li>
+            <li>✓ Fantasy insights and strategy</li>
+            <li>✓ Member-only features and competitions</li>
+            <li>✓ An ad-light reading experience</li>
+          </ul>
+          <a class="button button-primary button-full" href="mailto:hello@thesportshub.example?subject=THE%20SPORTS%20HUB%20Founding%20Member">REGISTER YOUR INTEREST <span>→</span></a>
+          <p class="fine-print">No payment is taken on this preview site. Pricing and benefits are proposed and may change before launch.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="newsletter-section">
+      <div class="container newsletter-layout">
+        <div><div class="eyebrow">DON'T MISS A MOMENT</div><h2>STAY IN <span>THE LOOP.</span></h2><p>Get launch updates and the best of the Hub in your inbox.</p></div>
+        <form class="newsletter-form" id="newsletter-form">
+          <label class="sr-only" for="email">Your email address</label>
+          <input id="email" type="email" placeholder="Enter your email address" required>
+          <button class="button button-primary" type="submit">KEEP ME POSTED →</button>
+          <small id="form-message">Early access sign-up will be connected to an email service before launch.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <a class="brand" href="#home"><span class="brand-mark">SH</span><span class="brand-name">THE SPORTS<span>HUB</span></span></a>
+      <p>Every Sport. Every Story. One Destination.</p>
+      <a href="#home" class="back-top">BACK TO TOP ↑</a>
+    </div>
+    <div class="container footer-bottom">
+      <span>© <span id="year"></span> THE SPORTS HUB. ALL RIGHTS RESERVED.</span>
+      <span>INDEPENDENT SPORTS CONTENT. BUILT FOR FANS.</span>
+    </div>
+  </footer>
+  <script src="app.js"></script>
+  <script src="register-sw.js"></script>
+</body>
+</html>
